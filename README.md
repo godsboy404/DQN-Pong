@@ -32,14 +32,12 @@ learning](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15Nat
 ### 新建Conda环境
 ```
 conda create -n dqn_pong python=3.8
-``` 
-
+```
 ### 安装依赖
 ```
 pip install -r requirements.txt
 sudo apt-get install ffmpeg
 ```
-
 ### 从头开始训练
 ```
 python train_atari.py

@@ -18,8 +18,8 @@ class DQNAgent:
                  lr,
                  batch_size,
                  gamma,
-                 device=torch.device("cpu" ),
-                 dqn_type="neurips"):
+                 device=torch.device("cpu"),
+                 dqn_type="nature"):
         """
         Initialise the DQN algorithm using the Adam optimiser
         :param action_space: the action space of the environment
