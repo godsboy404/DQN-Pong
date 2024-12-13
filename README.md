@@ -5,7 +5,7 @@ Deep Q-network implementation for [Pong-v0](https://gym.openai.com/envs/Pong-v0/
 learning](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf).
 ## 结果
 ### Nature 版本（视频）
-[![DQN Video](http://img.youtube.com/vi/DcyMFIKsVNI/0.jpg)](./video/openaigym.video.0.63019.video000000.mp4 "DQN For Atari Pong")
+[![DQN Video](http://img.youtube.com/vi/DcyMFIKsVNI/0.jpg)](http://www.youtube.com/watch?v=DcyMFIKsVNI "DQN For Atari Pong")
 ### 每轮奖励
 ![Rewards Per Episode](./results/results_per_episode.png)
 
