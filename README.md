@@ -4,7 +4,7 @@
 Deep Q-network implementation for [Pong-v0](https://gym.openai.com/envs/Pong-v0/).  The implementation follows from the paper - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) and [Human-level control through deep reinforcement
 learning](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf).
 ## 结果
-### Nature 版本（视频）
+### Nature 版本（DEMO）
 [![DQN Video](http://img.youtube.com/vi/DcyMFIKsVNI/0.jpg)](http://www.youtube.com/watch?v=DcyMFIKsVNI "DQN For Atari Pong")
 ### 每轮奖励
 ![Rewards Per Episode](./results/results_per_episode.png)
