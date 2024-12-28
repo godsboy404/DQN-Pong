@@ -25,16 +25,16 @@ if __name__ == '__main__':
     hyper_params = {
         "seed": 42,  # which seed to use
         "env": "PongNoFrameskip-v4",  # name of the game
-        "replay-buffer-size": int(5e3),  # replay buffer size
-        "learning-rate": 1e-4,  # learning rate for Adam optimizer
+        "replay-buffer-size": int(3e2),  # replay buffer size
+        "learning-rate": 1e-2,  # learning rate for Adam optimizer
         "discount-factor": 0.99,  # discount factor
         "dqn_type":"nature",
-        "num-steps": int(1e6),  # total number of steps to run the environment for
-        "batch-size": 32,  # number of transitions to optimize at the same time
-        "learning-starts": 10000,  # number of steps before learning starts
+        "num-steps": int(1e5),  # total number of steps to run the environment for
+        "batch-size": 64,  # number of transitions to optimize at the same time
+        "learning-starts": 8000,  # number of steps before learning starts
         "learning-freq": 1,  # number of iterations between every optimization step
         "use-double-dqn": True,  # use double deep Q-learning
-        "target-update-freq": 1000,  # number of iterations between every target network update
+        "target-update-freq": 800,  # number of iterations between every target network update
         "eps-start": eps_start,  # e-greedy start threshold
         "eps-end": 0.01,  # e-greedy end threshold
         "eps-fraction": 0.1,  # fraction of num-steps
